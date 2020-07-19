@@ -3,6 +3,7 @@ name: User story
 about: New functionality/improvements that has to be implemented in the existing product
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: ""
 =======
 title: "[STORY] "
@@ -10,6 +11,9 @@ title: "[STORY] "
 =======
 title: ""
 >>>>>>> 4761f5e... Add components section
+=======
+title: "[STORY] "
+>>>>>>> 1920334... Added user story GH issue template
 labels: feature
 assignees: ''
 
@@ -23,6 +27,7 @@ A clear and concise description of the functionality to be implemented.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Components**
 What components of the app does this functionality modify
 
@@ -33,6 +38,8 @@ What components of the app does this functionality modify
 What components of the app does this functionality modify
 
 >>>>>>> 4761f5e... Add components section
+=======
+>>>>>>> 1920334... Added user story GH issue template
 **Acceptance Criteria**
 The acceptance criteria to consider the feature "complete"
 
