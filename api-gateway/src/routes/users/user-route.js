@@ -4,7 +4,7 @@ const router = require('express').Router();
 const logger = require('../../logger/logger.js');
 
 const accountsController = require('../../controllers/accounts-controller.js');
-const httpStatusCode = require('../../utils/http-status-code.js');
+const httpStatusCode = require('../../network-utils/http-status-code.js');
 
 router.get('/all', async (req, res) => {
   try {

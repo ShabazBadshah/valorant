@@ -1,6 +1,8 @@
 const express = require('express');
 
-const loadMiddlewareStack = require('./src/middlewares');
+const logger = require('./src/logger/logger.js');
+
+const loadMiddlewareStack = require('./src/middlewares/middleware.js');
 
 const gqlRequests = require('./src/network-utils/gql-requests.js');
 
@@ -42,10 +44,10 @@ app.use('*', (req, res, next) => {
 
 const server = app
   .listen(APP_PORT, () => {
-    console.log(`API Gateway running on localhost:${APP_PORT} in ${process.env.NODE_ENV} mode`);
+    logger.info(`API Gateway running on localhost:${APP_PORT} in ${process.env.NODE_ENV} mode`);
   })
   .on('error', (error) => {
-    console.error(error);
+    logger.error(error);
   });
 
 module.exports = {

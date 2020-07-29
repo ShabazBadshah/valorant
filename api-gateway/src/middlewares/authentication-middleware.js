@@ -3,7 +3,7 @@
 const isObjectEmpty = require('../utils/is-object-empty.js');
 
 const authenticationController = require('../routes/controllers/authentication-controller.js');
-const httpStatusCode = require('../utils/http-status-code.js');
+const httpStatusCode = require('../network-utils/http-status-code.js');
 
 const authenticationMiddleware = (req, res, next) => {
   const { email, sessionJwtToken } = req.body;
