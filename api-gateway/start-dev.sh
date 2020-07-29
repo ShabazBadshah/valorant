@@ -19,5 +19,5 @@ echo "\n${bold_text}Bringing down any previous API Gateway instances${normal_tex
 docker-compose down
 echo "\n${bold_text}Building API Gateway instance${normal_text}"
 docker-compose build
-echo "\n${bold_text}Bringing up complete API Gateway instance (app and DB)${normal_text}"
+echo "\n${bolsd_text}Bringing up complete API Gateway instance (app and DB)${normal_text}"
 docker-compose up
