@@ -2,8 +2,6 @@
 
 __*A medical logistics app that assists family doctos manage their practices*__
 
-Project [documentation](https://drive.google.com/drive/folders/1a1oL3pDLifAl3YYQgQ656AtKwJPzCRT4?usp=sharing) on Google Drive
-
 ## 📘 Directory Breakdown
 
 ```text
